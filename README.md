@@ -102,10 +102,12 @@ Após a realização de diversos testes com os modelos verificou-se um melhor de
 
 ![image](https://user-images.githubusercontent.com/76128123/138116375-4fbbb904-ac93-4fe7-b22d-ccd88de1c7dc.png)
 
-A tabela acima mostra o número de clusters testados e o desempenho dos modelos utilizando a métrica da Silhouette para cada número de clusters. Percebe-se que o melhor resultado é encontrado quando um número de clusters igual a 18 é testado, porém optou-se por escolher o número de 9 clusters para o modelo final pois que também possuiu um resultado rezoavelmente bom. 
+A tabela acima mostra o número de clusters testados e o desempenho dos modelos utilizando a métrica da Silhouette para cada número de clusters. Percebe-se que o melhor resultado é encontrado quando um número de clusters igual a 18 é testado, porém optou-se por escolher o número de 9 clusters para o modelo final pois também possui um resultado rezoavelmente bom. 
 
 Essa escolha se deu pelo fato de 18 clusters ser um número grande para ser analisado mais cuidadosamente e poderia dificultar o time de negócios na tomada de decisão, fazendo com que fosse mais trabalhoso acompanhar todos eles, então de forma a simplificar questões de negócio/marketing o numero de clusters igual a 9 foi considerado mais adequado para a situação. 
 
 ## Resultados
+
+Como resultado foi possível obter um modelo que faz o agrupamento dos clientes e torna possível gerenciar e colocar em prática diversas alavancas de negócio, como campanhas de marketing especificas para cada grupo, programa de fidelidade com brindes e promoções, incentivos para outros clientes se tornarem Insiders, calcular expectativa de faturamento do grupo Insiders para semanas futuras, entre outros. Os resultados podem ser acompanhados diretamente em ferramentas de visualização, facilitando e deixando a tomada de decisão mais rápida e assertiva.
 
 ## Conclusão
