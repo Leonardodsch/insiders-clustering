@@ -92,6 +92,20 @@ O projeto utiliza a metodologia CRISP-DM, que consiste desenvolver o projeto de 
 
 ## Machine Learning Models
 
+Os algoritmos utilizados para fazer a clusterização foram:
+- KMeans;
+- GMM (Gaussian Mixture Model);
+- Hierarchical Clustering;
+- DBScan.
+
+Após a realização de diversos testes com os modelos verificou-se um melhor desempenho do KMeans e Hierarchical Clustering, ambos possuem funcionamento parecido então um resultado próximo entre eles já era esperado. A métrica escolhida para medir o desempenho foi a **Silhouette Score**, que é calculado usando a distância média intra-cluster e a distância média mais próxima do cluster para cada amostra. O valor da métrica pode variar de -1 até 1, com 1 sendo o melhor resultado possível e valores negativos podendo indicar que o modelo classificou os dados no cluster errado. Sendo assim, os resultados encontrados foram os seguintes:
+
+![image](https://user-images.githubusercontent.com/76128123/138116375-4fbbb904-ac93-4fe7-b22d-ccd88de1c7dc.png)
+
+A tabela acima mostra o número de clusters testados e o desempenho dos modelos utilizando a métrica da Silhouette para cada número de clusters. Percebe-se que o melhor resultado é encontrado quando um número de clusters igual a 18 é testado, porém optou-se por escolher o número de 9 clusters para o modelo final pois que também possuiu um resultado rezoavelmente bom. 
+
+Essa escolha se deu pelo fato de 18 clusters ser um número grande para ser analisado mais cuidadosamente e poderia dificultar o time de negócios na tomada de decisão, fazendo com que fosse mais trabalhoso acompanhar todos eles, então de forma a simplificar questões de negócio/marketing o numero de clusters igual a 9 foi considerado mais adequado para a situação. 
+
 ## Resultados
 
 ## Conclusão
