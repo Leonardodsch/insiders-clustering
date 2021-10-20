@@ -1,3 +1,7 @@
+Link para o notebook através do nbviewer (Recomendado para uma melhor visualização): 
+
+[![image](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](https://nbviewer.org/github/Leonardodsch/insiders-clustering/blob/main/notebooks/c09_insiders_clustering-model-results.ipynb)
+
 # Insiders Clustering
 
 Disclaimer: O Contexto a seguir, é completamente fictício, a empresa, o contexto, as perguntas de negócio foram criadas apenas para o desenvolvimento do projeto, e se baseiam em um projeto do site https://sejaumdatascientist.com/.
