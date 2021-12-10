@@ -7,7 +7,7 @@ Link para o notebook através do nbviewer (Recomendado para uma melhor visualiza
 Disclaimer: O Contexto a seguir, é completamente fictício, a empresa, o contexto, as perguntas de negócio foram criadas apenas para o desenvolvimento do projeto, e se baseiam em um projeto do site https://sejaumdatascientist.com/.
 
 <p align="center">
-  <img width="900" height="450" src="https://sejaumdatascientist.com/wp-content/uploads/2021/03/premium.png"/>
+  <img width="900" height="450" src="https://user-images.githubusercontent.com/76128123/145496829-f3c7f5d5-a93e-4829-9cee-e462161a1624.png"/>
 </p>
 
 
